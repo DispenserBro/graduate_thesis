@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "graduate-thesis"
+version = "0.0.1"
+description = "Asynchronous Telegram bot for creating an image library"
+authors = ["Danil Iarosh <maze3290@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
