@@ -4,6 +4,8 @@ from aiogram import Bot, Dispatcher
 from aiogram.enums import ParseMode
 from aiogram.fsm.storage.memory import MemoryStorage
 
+from bot.data.db_init import engine
+
 
 load_dotenv()
 BOT_TOKEN = getenv('TG_TOKEN')

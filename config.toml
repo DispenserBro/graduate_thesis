@@ -1,0 +1,6 @@
+[database]
+url = "sqlite:///db.sqlite3"
+
+
+[users]
+admins = []
